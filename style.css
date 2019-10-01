@@ -1,0 +1,49 @@
+body {
+    background-color: #adff2f;
+}
+
+*{
+    margin:10;
+    padding:0;
+}
+
+.display {
+    font-size: 20px;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 2px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+div {
+    text-align: center;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: none;
+       
+}
+
+section {
+    padding-top: 15px;
+    background-color: whitesmoke;
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.493);
+    
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.705);
+}
