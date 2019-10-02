@@ -3,7 +3,7 @@ body {
 }
 
 *{
-    margin:10;
+    margin:0;
     padding:0;
 }
 
@@ -14,14 +14,22 @@ body {
     margin: auto;
     margin-bottom: 2px;
     border: none;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.116);
+    text-align: right;
 
+}
+
+input#equals {
+    width: 225px;
 }
 
 div {
     text-align: center;
 }
 
+.cal {
+    margin-top: 40px;
+}
 .btn {
     width: 50px;
     height: 50px;
@@ -35,16 +43,24 @@ div {
 }
 
 section {
-    padding-top: 15px;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.384);
     width: 250px;
     border-radius: 5px;
     padding: 5px;
     margin: auto;
-    box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.493);
+    box-shadow: 3px 2px 3px 1px rgba(46, 68, 4, 0.363);
+    animation: onload 1s;
     
 }
 
 .btn:hover {
     background-color: rgba(0, 0, 0, 0.705);
+}
+
+@keyframes onload {
+    from {
+        transform: scale(0.8)
+    } to {
+        transform: scale(1)
+    }
 }
