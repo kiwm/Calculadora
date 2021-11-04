@@ -1,2 +1,2 @@
 # Calculadora
-calculadora básica em JavaScrip.
+calculadora básica em JavaScript.
